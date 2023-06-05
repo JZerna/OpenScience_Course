@@ -48,6 +48,32 @@ Further resources that you can refer to as needed:
 
 # Open Access
 
+This paper by Jon Tennant et al. (2016) on [The academic, economic and societal impact of Open Science](https://doi.org/10.12688/f1000research.8460.3) provides great insight into the current scientific system. Don't be discouraged, almost two thirds of it are references and appendices.
+
+Open access refers to the strive of making scientific knowledge freely available to anyone, without paywalls or regional restrictions. Thanks to expensive contracts between SLUB and publishing houses, you as a member of the TUD have access to a large portion of journal articles out there. But you have probably also been in a situation yourself, where you were in the middle of a literature search and had a highly interesting abstract in front of you, only to see that the full pdf can be purchased for the slim price of 35.99$. In some cases, authors cannot even freely access the final typesetted version of *their own* paper.
+
+The current, very flawed system looks like this:
+
+![Figure showing the conservative model of scientific publishing](Images/OA_Closed_Access.jpg)
+
+The system is changing thanks to a lot of pressure by activists of the scientific community, but it is changing slowly, and many established and new journals are trying to profit from this change by simply charging fees at a different step in the process under a different name.
+
+There are different types or 'routes' of open access publishing. There is the Gold Open Access model, where you (or hopefully your institution) pay an article processing charge (APC) to the journal in order to make it freely available to the public. The APC can range from 2,000$ to 10,000$ depending on the impact factor and lack of guilty conscience of the journal. And keep in mind that this only to make your article open access, your institution still has to pay to access all the other non-open-access articles that have been published in the past. And then there is the Green Open Access model, where you upload the final article in a repository in order to make it freely available to the public after a certain amount of time, usually six months.
+
+![Figure showing the Gold model of scientific publishing](Images/OA_Gold_Access.jpg)
+
+
+![Figure showing the Green model of scientific publishing](Images/OA_Green_Access.jpg)
+
+The three graphics were taken from [here](https://open-access.net/en/information-on-open-access/open-access-strategies).
+
+Further resources that you can refer to as needed:
+
+- The SLUB is currently developing an Open Access search engine called [B!SON](https://service.tib.eu/bison/), which aims to recommend suitable journals based on the input of title, abstract, and references of your manuscript.
+- An overwhelmingly long sitemap of resources can be found on the Open Access information platform [here](https://open-access.network/en/translate-to-english-sitemap). Choose between the history of Open Access, repositories, Open Access for different types of media, positions on Open Access, legal issues in different countries, etc.
+
+
+
 ---
 
 # Open Data, Materials, and Code
