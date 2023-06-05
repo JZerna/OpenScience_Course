@@ -7,7 +7,7 @@
 - [Open Access](#open-access)
 - [Open Data, Materials, and Code](#open-data-materials-and-code)
 - [Reproducible Analysis](#reproducible-analysis)
-- [Preregistration](#preregistration)
+- [Preregistration and Registered Reports](#preregistration-and-registered-reports)
 - [Replication Research](#replication-research)
 
 ---
@@ -139,6 +139,8 @@ A workflow that we can recommend from personal experience is a workflow with Git
 
 ![Figure showing our recommended workflow](Images/Workflow_Reproducible.png)
 
+(Icons from [flaticon.com](flaticon.com))
+
 Benefits of this workflow:
 
 - **Version Control**: You can always go back to any version of the file that you have defined through a Commit. If you have deleted a code chunk by mistake or need a previous string of thought from the manuscript, simply go to Github and choose the version you would like to go back to.
@@ -159,8 +161,59 @@ Further resources that you can refer to as needed:
  
 ---
 
-# Preregistration
+# Preregistration and Registered Reports
+
+Wagenmakers et al. (2014) wrote a paper called [An Agenda for Purely Confirmatory Research](https://doi.org/10.1177/1745691612463078) in which they present how easy it is to draw wrong conclusions from seemingly exploratory research.
+
+![Figure showing the preregistration and registered report workflow](Images/Workflow_RegReps.png)
+
+## Preregistration
+
+A preregistration is a written plan of how you want to conduct your study (design, sample size calculations, operationalizations, etc.) and how you want to analyze every single hypothesis. The goal is to make a commitment to specific hypotheses and analyses in order to avoid the temptation of p-hacking, i.e. adapting your analyses until you get a significant result.
+
+It is also possible to write a preregistration solely for your analysis plan if you are working with existing data. There are many preregistration templates out there for different study types, e.g. behavioural, fMRI, clinical, ... Those templates usually include a statement of where you are in the study process, because the more you have done with the data already, the more your intentions are guided by what you know about that data, and the less it makes sense to write a preregistration.
+
+There is no single right way to write a preregistration. The point is to make a commitment and hold yourself accountable, so don't be self-conscious about what you have written. Upload your preregistration to a repository, e.g. the Open Science Framework, before you start analysing your data. That way it really is a commitment, and other researchers can verify your open science efforts.
+
+Preregistrations are not only advantageous for open science but also for good science in general, because it requires you to really think your study through and question the feasibility of every hypothesis. Plus, if you are one of those of people who regularily gets carried away trying to optimize every aspect of your analysis, it is consoling to be able to stick to your preregistration when you finally analyze your data. Of course you are allowed to deviate from your preregistration. Sometimes you simply missed an important aspect of data preparation, or you discovered an interesting association during analysis. In this case, clearly state and briefly justify this deviation in your paper.
+
+## Preprints
+
+A preprint is a publicly available manuscript of your paper that has not been peer-reviewed yet. Right after you have submitted your manuscript to a journal, you can upload it to a repository such as PsyArXiv and advertise for it on your Researchgate profile, your Twitter, your family gathering, ... Preprints are generally given a DOI by the repository, which means that they are citable. And it is very likely that someone wants to cite your preprint during the hideously long time it takes for the peer review process to be completed. Until then, your work is out in the world, and other researchers can find it, be inspired by it, and give feedback on it. You can even upload a new version of the preprint after the first round of reviewer comments is done and you have resubmitted the manuscript. That way, the review process is more transparent. Just make sure to check up to which point the journal allows you to upload a preprint. Usually it is your final peer-reviewed manuscript, before any typesetting by the journal has been done.
+
+## Registered Reports
+
+A Registered Report is like a preregistration in a committed relationship, meaning you are basically guaranteed a publication if you keep all your promises and put in the work. More than 250 journals are currently offering the two-step-process of registered reports. Step one: After coming up with a research idea you write out a full introduction and methods section, which is then subjected to peer review and is either rejected or goes into revision, after which you get a so called IPA, an in-principle acceptance. This means that the journal will publish your final paper if you stick to everything you described in the methods section, regardless of the results. Step two: You conduct the study as planned, analyze the data as planned, and write the results section and discussion to the already existing first half of your paper. This full paper is then again subjected to peer review, revised, and then published. Technically, the journal can still refuse to publish your paper, but they would be fools to do so, as your methodology is about as fool-proof as it gets and they would lose a supremely conducted study to another journal.
+
+This website [here](https://www.cos.io/initiatives/registered-reports?_ga=2.27732916.948201716.1606998245-950379335.1606998245) explains what Registered Reports are, their benefits, and which journals support them.
+
+![Figure showing the pros of registered reports](Images/Cons.png)
+![Figure showing the pros of registered reports](Images/Pros.png)
+
+Further resources that you can refer to as needed:
+
+- Joe Simmons gave an excellent presentation on why preregistration is the cure for p-hacking. Watch it [here](https://www.youtube.com/watch?v=8wDwcp1EwNM).
+- The SLUB has produced a 30-minute video on preregistration and registered reports [here](https://www.youtube.com/watch?v=mAgHAVcJlHs).
+- This website [here](https://v2.sherpa.ac.uk/romeo/) allows you to search for different journals to find out about their policies regarding preprints and open access publishing.
+- The OSF offers a variety of preregistration templates [here](https://osf.io/zab38/wiki/home/). You can download the template best suited for your software and study type.
+- There has been an effort by a task force of APA, BPS, DGPS, the COS, and ZPID members to create a unified preregistration template. You can find it in Google Form, Jupyter Notebook and R format [here](https://prereg-psych.org/index.php/rrp/templates).
+- For preregistering more complex cognitive models, you can have a look at the paper by Sophia Crüwell and Nathan J. Evans, where they discuss preregistering advanced analyses and give examples. Find it [here](https://psyarxiv.com/2hykx/).
+- Read about the importance of considering statistical power in your preregistration [here](https://www.nature.com/articles/nrn3475) in the 2013 paper by Katherine Button and colleagues.
+- This article [here](https://fivethirtyeight.com/features/science-isnt-broken/#part1) includes an animated tool that lets you prove that either Democrats or Republicans are bad for the economy. Very nice as a p-hacking demo.
+- A great state-of-the-art overview regarding Registered Reports, incl. myth-busting and tips for authors, can be found in this review by Chambers et al. 2021 [here](https://doi.org/10.1038/s41562-021-01193-7).
+- A good introduction to the What and How of preregistration is given by Xenia Schmalz in [this](https://www.youtube.com/watch?v=b_sXB55vM3w) 17 minute video.
 
 ---
 
 # Replication Research
+
+The paper [Making replication mainstream](https://doi.org/10.1017/S0140525X17001972) by Rolf Zwaan and colleagues (2018) goes in depth on all common concerns of replication research. It is rather lengthy because starting at page 13 there are dozens of peer remarks, so feel free to save the very philosophical ones for a glass of wine.
+
+The following video is an introduction to replication research by Catherine Corker (6 min almost uncut here) and a presentation by John Ioannidis on reproducilibity in different scientific fields (the full 56 min are here).
+
+Further resources that you can refer to as needed:
+
+- Brandt and colleagues wrote a paper with a checklist for replication research, that is a good resource for both replicating a study and for checking whether your own study could be replicated with the facts provided in your methods section. Find it [here](http://dx.doi.org/10.2139/ssrn.2283856).
+- This website lists studies and their replication attempts, especially studies that were popular in the media. People can add replications and suggest studies for replication. Find it [here](http://www.psychfiledrawer.org/view_article_list.php).
+- If you are absolutely hooked on Open Science practises by now, then this syllabus of a workshop by Amy Orben might be for you. It is a document full of links to resources, from podcast episodes to books to online tools, covering everything from replication to preregistration to statistic wars, neatly arranged in weekly schedules. Find it [here](https://www.amyorben.com/docs/syllabus.pdf).
+- The same goes for this reading list by the ReproducibiliTea initiative (which we also have at the TU Dresden with a [Twitter](https://twitter.com/DresdenTea) presence), referring you to 24 great Open Science papers. Find it [here](https://osf.io/8r2jg/).
