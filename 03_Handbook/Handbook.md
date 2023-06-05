@@ -73,10 +73,26 @@ Further resources that you can refer to as needed:
 - An overwhelmingly long sitemap of resources can be found on the Open Access information platform [here](https://open-access.network/en/translate-to-english-sitemap). Choose between the history of Open Access, repositories, Open Access for different types of media, positions on Open Access, legal issues in different countries, etc.
 
 
-
 ---
 
 # Open Data, Materials, and Code
+
+This paper by Olivier Klein et al. (2018), titled [A practical guide for transparency in psychological science](
+https://doi.org/10.1525/collabra.158), does exactly what it says.
+
+Sharing your data (and your analysis scripts) openly in safe repositories is not only intended to enable the reproduction of your analyses but also the aggregation of data sets from all over the world for powerful meta-analyses. However, many researchers are hesitant when it comes to open data because they are concerned about copyright issues, having missed a mistake of their own, accidental violations of privacy, etc. It is important to address these concerns in order to move forward with the open data movement.
+
+This figure is adapted from the talk by Felix Schönbrodt (see below) and represents some of the core concerns and values that need to be balanced in the open data movement, with possible solutions/tips in the grey box inbetween:
+
+![Figure showing the value conflicts when sharing data publicly](Images/Values.png)
+
+Further resources that you can refer to as needed:
+
+- This compact article by the University of Calgary briefly describes what each licence type means, read it [here](https://libanswers.ucalgary.ca/faq/200582).
+- This tool takes you through your goals step by step to find the licence type that is right for you. Find it [here](https://chooser-beta.creativecommons.org/).
+- This website by the Open Knowledge Foundation provides a compact framework of Open Data. You can navigate to different steps in the Open Data research process using the hamburger in the upper left corner. It also contains a nifty glossary of all the terms associated with Open Data. Find it [here](http://opendatahandbook.org/guide/en/introduction/).
+- This website allows you to search for a repository that suits your needs. You can filter by subject, country, licenses, restrictions, standards, etc. Find it [here](https://www.re3data.org/).
+- This checklist gives you an idea of whether your data conforms to the FAIR principles [here](https://satifyd.dans.knaw.nl/).
 
 ---
 
