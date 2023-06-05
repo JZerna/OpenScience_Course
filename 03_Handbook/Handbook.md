@@ -98,6 +98,65 @@ Further resources that you can refer to as needed:
 
 # Reproducible Analysis
 
+The paper [Good enough practises in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510) by Greg Wilson et al. (2017) is a guideline for making your workflow reproducible.
+
+Reproducible analysis is all about making it easy for yourself and for others to understand what you have done, to repeat your analysis, to tweak your analysis, and to avoid digital clutter. Following all these recommendations might seem like a skyscraper of work at first, but it is most likely the only way to say goodbye to the phrase "Your closest collaborator is yourself six months ago but you don't reply to email.". Structured and clean workflows are attractive but often hard to implement, because one does not know where to start. This is a boiled down version of what the paper describes and a reminder of what is important for each aspect:
+
+![Figure showing good enough practises in scientific computing](Images/Good_enough.jpg)
+
+Working with Github, R, and RMarkdown
+
+A workflow that we can recommend from personal experience is a workflow with Github, R, and RMarkdown (see Figure below).
+
+1. In the beginning of your project, your set up a repository using Github, which is the environment your files will be in.
+    * You can either set it to private or to public.
+    * You can invite specific people to collaborate on this repository.
+2. On your local PC, you have your data, your analysis scripts, your manuscript file, your figures, and any additional files such as supplementary materials, slides, etc.
+    * Any file that you create over the course of the project will be synchronized with your Github repository.
+    * This can be done using Git in R or Github Desktop or any other GUI such as Visual Studio Code.
+3. Your data has ideally been collected with a secure and multi-functional software such as REDCap.
+    * REDCap automatically generates a codebook for you to accompany your data and clarify any variable names and scales.
+    * If your have very large data sets, e.g. EEG or fMRI data, the file size will exceed the limit set by Github. In that case, you have your files on your local PC only, and you will upload them to a repository such as OSF for others to access.
+4. Everyday before you start working on any files, you synchronize the repository on your local PC with the repository on Github.
+    * This is called a Pull.
+    * Any changes that your collaborators have implemented while you were gone will be synchronized.
+5. Each change that you make to your files will be set in stone with a comment describing what you changed.
+    * This is called a Commit.
+    * Each commit is a version of the file that you can come back to if you wish to. Smaller commits are therefore recommended.
+6. If you have committed changes to one or more files and you would like the repository on Github to reflect those changes, you synchronize the repository on Github with the repository on your local PC.
+    * This is called a Push.
+    * If a collaborator now makes a Pull, they will have the most recent version of every file with the changes you made.
+7. Should you ever need to work on the same file as your collaborators (e.g. one person writes code for the instruction at the beginning of the paradigm, the other implements the feedback after the task), you can create a Branch.
+    * A Branch is a copy of the repository, in which you can make changes and Commits and Pushes.
+    * As soon as your work is done, you can request a Merge (or do it yourself if you are the creator of the repository).
+    * A Merge checks for conflicts between the files of the main Branch and the child Branch.
+    * If there are no conflicts, both Branches are fused into the main.
+    * If there are conflicts, you can resolve them one by one, deciding which lines of code to keep from which Branch.
+    * This method only works with raw text or code files, while file types such as png, docx, or pptx cannot be resolved piece by piece, so you have to settle on the entire file from one of the Branches.
+8. By using RMarkdown, the results of your analyses, including any generated figures, are automatically updated when you recompile the manuscript. This way, your manuscript is always up to date and you avoid typos in result reporting.
+9. If it isn't public already, you should make your repository public when you submit your manuscript to a journal. Make sure it does not contain any unnecessary files (personal communications, old meeting notes, etc.).
+10. Any reviewer or interested researcher can now copy the entire repository to their own PC and run the analyses, because the folder and file structure is exactly the same as it was on your PC.
+
+![Figure showing our recommended workflow](Images/Workflow_Reproducible.png)
+
+Benefits of this workflow:
+
+- **Version Control**: You can always go back to any version of the file that you have defined through a Commit. If you have deleted a code chunk by mistake or need a previous string of thought from the manuscript, simply go to Github and choose the version you would like to go back to.
+- **Collaboration**: No more sending files back and forth. Everyone is always up to date (given that they are conscientious Push-and-Pull-people).
+- **Backup**: If you accidentally delete a file, a folder, or your PC crashes, your work safe and sound in your Github repository.
+- **Device independence**: If you want to work on something in your repository from a different device, simply clone the repository on this device and Push and Pull from there.
+- **Honesty**: Every step of your work is traceable, so it is much harder to tamper with the evidence.
+- **Contribution Tracking**: In case there are any conflicts about the order of authorships, you can use the contribution overview provided by Github to check the amount of Commits and added/removed lines of code per contributor.
+- **Reproducibility**: With very little effort, anyone who wants to reproduce your work (even if it is yourself in a year from now) can do so. All files are in place.
+
+Further resources that you can refer to as needed:
+
+- This 1h 51m workshop by Mine Çetinkaya-Rundel is very good, so if you have the time please check it out [here](https://www.youtube.com/watch?v=fwZqVvHaA0M&feature=youtu.be).
+- This 1h 48m workshop shows you how to integrate Git(hub) and R(Studio) [here](https://www.youtube.com/watch?v=Cn-72tbRNFc).
+- For all those seeking to improve their R skills, this online course is completely free. It provides step by step explanations for all things R (including R markdown), along with a playlist on Youtube. You can look at all lessons at any time, no need to complete a lesson to unlock the next. Learn [here](https://psyteachr.github.io/msc-data-skills/repro.html).
+- This checklist on Github serves as an anchor for checking whether your own research is reproducible. Find it [here](https://github.com/datacarpentry/rr-intro/blob/gh-pages/checklist.md).
+
+ 
 ---
 
 # Preregistration
