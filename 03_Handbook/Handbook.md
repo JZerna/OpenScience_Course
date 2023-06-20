@@ -193,6 +193,7 @@ This website [here](https://www.cos.io/initiatives/registered-reports?_ga=2.2773
 Further resources that you can refer to as needed:
 
 - Joe Simmons gave an excellent presentation on why preregistration is the cure for p-hacking. Watch it [here](https://www.youtube.com/watch?v=8wDwcp1EwNM).
+- There is a great shiny app that shows you how much sample size and construct reliability matter in the difference between observed and true correlation. Play around [here](https://matthewbjane.shinyapps.io/effect_size_artifact_bias/).
 - The SLUB has produced a 30-minute video on preregistration and registered reports [here](https://www.youtube.com/watch?v=mAgHAVcJlHs).
 - This website [here](https://v2.sherpa.ac.uk/romeo/) allows you to search for different journals to find out about their policies regarding preprints and open access publishing.
 - The OSF offers a variety of preregistration templates [here](https://osf.io/zab38/wiki/home/). You can download the template best suited for your software and study type.
