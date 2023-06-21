@@ -54,16 +54,16 @@ Open access refers to the strive of making scientific knowledge freely available
 
 The current, very flawed system looks like this:
 
-![Figure showing the conservative model of scientific publishing](Images/OA_Closed_Access.jpg)
+![Figure showing the conservative model of scientific publishing](Images/OA_Closed_Access.JPG)
 
 The system is changing thanks to a lot of pressure by activists of the scientific community, but it is changing slowly, and many established and new journals are trying to profit from this change by simply charging fees at a different step in the process under a different name.
 
 There are different types or 'routes' of open access publishing. There is the Gold Open Access model, where you (or hopefully your institution) pay an article processing charge (APC) to the journal in order to make it freely available to the public. The APC can range from 2,000$ to 10,000$ depending on the impact factor and lack of guilty conscience of the journal. And keep in mind that this only to make your article open access, your institution still has to pay to access all the other non-open-access articles that have been published in the past. And then there is the Green Open Access model, where you upload the final article in a repository in order to make it freely available to the public after a certain amount of time, usually six months.
 
-![Figure showing the Gold model of scientific publishing](Images/OA_Gold_Access.jpg)
+![Figure showing the Gold model of scientific publishing](Images/OA_Gold_Access.JPG)
 
 
-![Figure showing the Green model of scientific publishing](Images/OA_Green_Access.jpg)
+![Figure showing the Green model of scientific publishing](Images/OA_Green_Access.JPG)
 
 The three graphics were taken from [here](https://open-access.net/en/information-on-open-access/open-access-strategies).
 
